@@ -1,6 +1,6 @@
 # Ames Housing Dataset: Exploratory Data Analysis
 
-![Housing Data Analysis](https://via.placeholder.com/800x400?text=Ames+Housing+Dataset+EDA)
+![Housing Data Analysis](https://cdn.prod.website-files.com/62d64ff33158a9a2aba96531/63e22d9d29cb7279ce51bdae_Real%20Estate%20Data%20Analytics%20Thumbnail%20(1).svg)
 
 ## Project Overview
 This repository contains a comprehensive exploratory data analysis (EDA) of the Ames Housing dataset. The analysis examines residential property characteristics in Ames, Iowa, to uncover patterns, relationships, and insights about factors influencing home values.
