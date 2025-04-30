@@ -58,7 +58,7 @@ The Ames Housing dataset provides detailed information on residential properties
 - Transformation improves linear model assumptions and performance  
 
 ### 5. Correlation Analysis
-<img src="https://via.placeholder.com/600x400?text=Correlation+Heatmap" width="600"/>
+<img src="https://github.com/Shivadzn/eda-house-price-prediction/blob/main/Eda_analysis/Images/Correlation%20heatmap%20of%20top%20features.png?raw=true" width="600"/>
 
 - **SalePrice** has high correlation with:  
   - **OverallQual** (0.79)  
@@ -105,11 +105,8 @@ The Ames Housing dataset provides detailed information on residential properties
 - **Python Libraries**:  
   - `pandas`, `numpy` – data wrangling  
   - `matplotlib`, `seaborn` – visualization  
-  - `scipy` – statistical tests  
-
-## Repository Structure
-**SciPy**: Statistical analysis
-
+  - `scipy` – statistical tests
+    
 ## Repository Structure
 ```
 ├── data/
@@ -156,4 +153,4 @@ The EDA reveals several key considerations for subsequent predictive modeling:
 ## Contact
 - **Name**: [Shiva]
 - **Email**: [shivajaiswaldzn@gmail.com]
-- **GitHub**: [Your GitHub Profile](https://github.com/Shivadzn)
+- **GitHub**: [https://github.com/Shivadzn]
