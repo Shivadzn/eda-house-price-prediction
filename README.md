@@ -34,7 +34,7 @@ The EDA notebook examines the dataset through the following analyses:
 - Frequency distributions for categorical variables
 
 ### 2. Missing Value Analysis
-![Missing Values](https://via.placeholder.com/600x400?text=Missing+Value+Patterns)
+![Missing Values](Eda_analysis/Images/missing_values.png)
 - Identification of missing data patterns
 - Analysis of NA values and their meaning in context
 - Strategies for handling missing values
