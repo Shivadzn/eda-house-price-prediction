@@ -1,6 +1,5 @@
 # Ames Housing Dataset: Exploratory Data Analysis
-
-![Housing Data Analysis](https://cdn.prod.website-files.com/62d64ff33158a9a2aba96531/63e22d9d29cb7279ce51bdae_Real%20Estate%20Data%20Analytics%20Thumbnail%20(1).svg)
+<img src="https://cdn.prod.website-files.com/62d64ff33158a9a2aba96531/63e22d9d29cb7279ce51bdae_Real%20Estate%20Data%20Analytics%20Thumbnail%20(1).svg" width="600"/>
 
 ## Project Overview
 This repository contains a comprehensive exploratory data analysis (EDA) of the Ames Housing dataset. The analysis examines residential property characteristics in Ames, Iowa, to uncover patterns, relationships, and insights about factors influencing home values.
@@ -26,38 +25,38 @@ The Ames Housing dataset provides detailed information on residential properties
 ## Exploratory Data Analysis
 The EDA notebook examines the dataset through the following analyses:
 
-### 1. Boxplot of top 6 correlated features
-![Outlier detection](Eda_analysis/Images/Boxplot of top 6 correlated features.png)
+### 1. Data Understanding
+<img src="https://images.ctfassets.net/lzny33ho1g45/5FH7fLMZABa2N5O25hniRV/e980968e81b8bcda2bebffc98736e47a/Data_analysis_hero.jpg?w=1520&fm=jpg&q=31&fit=thumb&h=760" width="600"/>
+- Dataset structure and composition
+- Feature types and distributions
+- Summary statistics for numerical variables
+- Frequency distributions for categorical variables
+  
+### 2. Boxplot of top 6 correlated features
+<img src="https://github.com/Shivadzn/eda-house-price-prediction/blob/main/Eda_analysis/Images/Boxplot%20of%20top%206%20correlated%20features.png?raw=true" width="600"/>
 - **OverallQual:** Concentrated at higher values (median ~7), few lower outliers.
 - **GrLivArea:** Right-skewed, median around 1500 sq ft, several large outliers.
 - **GarageCars:** Median 2 cars, concentrated at 1, 2, and 3, few 0 and 4.
 - **GarageArea:** Right-skewed, median ~480 sq ft, several large outliers.
 - **TotalBsmtSF:** Right-skewed, many with 0 sq ft, median ~850 sq ft for those with basements, large outliers.
 - **1stFlrSF:** Right-skewed, median ~1100 sq ft, large outliers.
-  
-### 2. Data Understanding
-![Data Overview](https://images.ctfassets.net/lzny33ho1g45/5FH7fLMZABa2N5O25hniRV/e980968e81b8bcda2bebffc98736e47a/Data_analysis_hero.jpg?w=1520&fm=jpg&q=31&fit=thumb&h=760)
-- Dataset structure and composition
-- Feature types and distributions
-- Summary statistics for numerical variables
-- Frequency distributions for categorical variables
 
 ### 3. Missing Value Analysis
-![Missing Values](Eda_analysis/Images/missing_values.png)
+<img src="Eda_analysis/Images/missing_values.png" width="600"/>
 - "PoolQC", "MiscFeature", "Alley", and "Fence" have the highest percentage of missing values (>80%).
 - "MasVnrType" and "FireplaceQu" also exhibit a significant number of missing values.
 - Features like "LotFrontage" and various garage/basement-related features show a smaller percentage of missing data.
 - "Electrical" and "MasVnrArea" have minimal to no missing values.
 
 ### 4. Distribution of Saleprice after normalization
-![Price Distribution](Eda_analysis/Images/Distribution of saleprice vs distribution of log transformed saleprice.png)
+<img src="https://github.com/Shivadzn/eda-house-price-prediction/blob/main/Eda_analysis/Images/Distribution%20of%20saleprice%20vs%20distribution%20of%20log%20transformed%20saleprice.png?raw=true" width="600"/>
 - Distribution of the target variable (SalePrice)
 - Assessment of normality and skewness
 - Distribution of key numerical features
 - Detection and analysis of outliers
 
 ### 5. Correlation Analysis
-![Correlation Heatmap](https://via.placeholder.com/600x400?text=Correlation+Heatmap)
+<img src="https://via.placeholder.com/600x400?text=Correlation+Heatmap" width="600"/>
 - The heatmap displays the correlation coefficients between "SalePrice" and other top features.
 - "SalePrice" shows a strong positive correlation with "OverallQual" (0.79) and "GrLivArea" (0.71).
 - "GarageCars" (0.64) and "GarageArea" (0.62) also exhibit a strong positive correlation with "SalePrice".
@@ -66,7 +65,7 @@ The EDA notebook examines the dataset through the following analyses:
 - There are also strong correlations among the independent variables, such as between "GarageCars" and "GarageArea" (0.88), and between "TotalBsmtSF" and "1stFlrSF" (0.82).
 
 ### 6. SalePrice vs top 9 correlated features
-![SalePrice vs top 9 correlated features](Eda_analysis/Images/SalePrice vs top 9 correlated features.png)
+<img src="https://github.com/Shivadzn/eda-house-price-prediction/blob/main/Eda_analysis/Images/SalePrice%20vs%20top%209%20correlated%20features.png?raw=true" width="600"/>
 **Key observations from the scatter plots:**
 
 - **OverallQual (0.79):** There's a clear positive trend; as the overall quality of the house increases, the sale price tends to increase. The relationship appears somewhat linear but with distinct steps corresponding to the discrete nature of the quality ratings.
